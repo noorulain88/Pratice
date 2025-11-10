@@ -44,3 +44,66 @@ console.log("Hello world!");
 //     console.log("try to make a daily routine")
 // }
 
+
+// arrays
+
+var city0="lahore"
+var city1="karachi"
+var city2="pishawar"
+var city3="queeta"
+var city4="shaikopora"
+var city5="sahiwal"
+var city6="multan"
+var city7="naran"
+// var cities=[Element1,Element2, element3,Element4,element5,Element7,]
+
+// var arrays_name=[element1,element2,]
+console.log("THE last city",city7 )
+console.log("THE fifth city",city5 )
+console.log("THE fourth city",city4 )
+console.log("THE sixth city",city6 )
+// the code without arrays
+
+// for (var cities= 0; cities<9;cities++){
+//     console.log("slskgjg",cities)
+// }
+// wrong
+
+
+
+// var num={ 12 , 45 , 67 }
+// console.log("numbreer",num)
+// console.log("number0",[0])
+// console.log("number0",[2])
+// console.log("number0",[3])
+
+
+
+var country=["eurlope",
+    "england", "farnace",]
+for(var i = 0; i<country.length;i++){
+    console.log(country[i])
+}
+
+// var student=prompt("enter your name bro")
+// for (var student=0; student=fatima;student++){
+//     console.log("student",student)
+// }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

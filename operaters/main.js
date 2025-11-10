@@ -1,4 +1,4 @@
-console.log("hello world");
+// console.log("hello world");
 
 // if and else condition
 // var Name=prompt(
@@ -72,12 +72,12 @@ console.log("hello world");
 
 // }
 // loop
-var i=0
-while(i<5){
-    console.log("the value of i is " )
-    i++
+// var i=0
+// while(i<5){
+//     console.log("the value of i is " )
+//     i++
 
-}
+// }
 // steps of while loop
 // initilization
 // condition
@@ -86,18 +86,18 @@ while(i<5){
 
 // doo loop
 // increment
-var i=0
-do{
-    console.log(("value of i in do is ") )
-    i++
-}while(i<5)
+// var i=0
+// do{
+//     console.log(("value of i in do is ") )
+//     i++
+// }while(i<5)
 
-// decrement
-var i=5
-do{
-    console.log("the value of u in do while loop and decrement zz" ,i)
-    i--
-}while(i>0)
+// // decrement
+// var i=5
+// do{
+//     console.log("the value of u in do while loop and decrement zz" ,i)
+//     i--
+// }while(i>0)
 
     // for loop steps
     // initilization
@@ -107,15 +107,42 @@ do{
 
 
     
-// for 
-for(var i=0;i<2;i++){
+// // for 
+// for(var i=0;i<2;i++){
 
-    console.log("the value of i in for loop is " ,i)
-}
+//     console.log("the value of i in for loop is " ,i)
+// }
 
 
-// decremenet of for loop
-for(var i=10;i>0;i--){
-    console.log("the value of i in for loop decrement ")
+// // decremenet of for loop
+// for(var i=10;i>0;i--){
+//     console.log("the value of i in for loop decrement ")
 
-}
+// }
+
+// loop
+// all  types in increment 
+// wrong 
+// i=7
+// while(i<10){
+//     console.log("the value of i is ")
+//     i++
+// }
+// do{
+//     console.log("the value of i in do while looop is")
+//     i++
+// }while(i<15)
+    // for(var i=0;i<6;i++){
+    //     console.log("the value of i in for loof is ")
+    // }
+    // all types in decrement
+    // i=10
+    // while(i>5){
+    //     console.log("the value of i in while loop decrement is ")
+    //     i--
+    // }
+    // do{
+    //     console.log("the value of i in do while loop decrement is")
+    //     i--
+    // }while(i<5)
+ 
