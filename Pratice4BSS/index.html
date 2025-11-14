@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>bootstrap accordain</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current=""> <a href="library/index.html">library</a></li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="library/index.html">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page"> <a href="data/index.html">data</a></li>
+  </ol>
+</nav>
+    <!-- accordian -->
+    <h1 class="text-danger">Accordian</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg-success text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            class #1 paragraph
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body bg-dark text-white">
+            <strong>lorem.</strong>Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. A, accusamus laborum iste libero vel tempore
+            aliquid perferendis accusantium omnis quod, possimus voluptatibus
+            fugiat cumque nostrum deleniti quis nobis autem ab.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-secondary text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            class #2 paragraph
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body bg-dark text-white">
+            <strong>lorme.</strong>Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Beatae odio obcaecati consectetur unde doloribus
+            alias! Eveniet vitae quod qui libero inventore fugiat esse,
+            excepturi tempore ullam, nesciunt non, ea facilis!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed bg-success text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            class #3 paragraph
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body bg-dark text-white">
+            <strong>lorme</strong> Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Fugit voluptatum nihil, dolore obcaecati
+            blanditiis consectetur facilis architecto amet iure quod voluptates
+            provident consequuntur ipsam incidunt unde quam minima. Nemo,
+            exercitationem.
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <h1 class="text-danger">Alerts</h1>
+    <div class="alert alert-primary" role="alert">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum nisi odit
+      architecto nostrum harum eaque magni quas sapiente. Rem corporis eveniet
+      cumque eius voluptates dignissimos numquam cupiditate necessitatibus
+      voluptatem quae?
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+      aliquam ducimus nihil nam quia, ipsam minus optio dolore, corporis ipsa
+      quo modi veniam perferendis quas? Consequatur expedita molestias qui quam.
+    </div>
+    <div class="alert alert-success" role="alert">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officia,
+      fugit exercitationem non illo, architecto temporibus sunt maiores neque
+      ipsam inventore velit tempore voluptatum. Fugit ea earum amet quasi iure.
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+      obcaecati nam quam deleniti, quibusdam cumque? Obcaecati excepturi maiores
+      maxime, autem molestias facere odit dicta iure facilis! Vel quos facilis
+      libero?
+    </div>
+    <div class="alert alert-warning" role="alert">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem porro rem
+      pariatur saepe voluptatum ad expedita ducimus illo, quidem veniam deleniti
+      asperiores nam, aperiam vitae maiores minus voluptatibus nisi deserunt.
+    </div>
+    <div class="alert alert-info" role="alert">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      dolorem aspernatur, velit blanditiis reprehenderit dolore neque ipsam qui,
+      voluptatum eveniet quam dolorum mollitia voluptas perspiciatis similique
+      vero, ut accusantium officiis!
+    </div>
+    <div class="alert alert-light" role="alert">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+      necessitatibus ratione maiores minima enim cum laboriosam totam
+      exercitationem quia, nam voluptatem inventore quisquam, unde officiis est
+      voluptas eligendi reprehenderit error.
+    </div>
+    <div class="alert alert-dark" role="alert">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, modi?
+      Laborum reiciendis iure laudantium beatae aliquam aspernatur repellendus,
+      commodi nulla quaerat ducimus maiores numquam, tempore voluptatem
+      reprehenderit magni corrupti quas?
+    </div>
+    <h4 class="text-center">Alerts in form</h4>
+    <div class="form text-center">
+      <label for="password"
+        ><div class="mb-3">
+          <label for="" class="form-label alert-danger">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name=""
+            id=""
+            placeholder="password"
+          />
+        </div>
+      </label>
+    </div>
+
+    <div>
+      <h4 class="text-danger text-center">alerts in button</h4>
+    </div>
+    <div id="liveAlertPlaceholder" class="text-center">
+      <button type="button" class="btn btn-info text-center" id="liveAlertBtn">
+        addimissionn open
+      </button>
+<button type="button" class="btn btn-primary position-relative">
+  Messages
+  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    34+
+    <span class="visually-hidden">unread messages</span>
+  </span>
+</button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
