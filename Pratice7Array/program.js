@@ -56,10 +56,62 @@
 // 
 
 
-// alert
+// // assignmet pratice
+// // 3. Convert all fruits array values into uppercase using a loop.
+// var fruits = ["apple", "mango", "banana", "orange"];
+// for(var i=0;i<fruits.length;i++){
+//     console.log(fruits[i].toUpperCase())
+// }
 
 
+// var fruits=['apple','mango','grapes','banana'];
+// for(var i=0;i<fruits.length;i++){
+//     console.log(fruits[i].toUpperCase())
+// }
 
+
+// var userNamae=prompt("enter your name");
+// var firstChater=userNamae.slice(0,1).toUpperCase(); ***we use slice(0,1) to select first chater and convert it into upper case***
+
+// var secodeChater=userNamae.slice(1).toLowerCase(); ***we use slice(1) to left element 0 and convert all remaing in loweer case ,so we thats why we dont define  the the limit***
+
+// var fullName=firstChater + secodeChater;
+// console.log("the user name is ",fullName);
+
+// var fruit=" I like Mango";
+// var index=fruit.indexOf("Mango")
+
+// ROUND
+// var average=8.9
+// var round=Math.round(average)
+// console.log("round convert into decimal into number by the method of round off",round)
+ 
+
+// var percentage=prompt("Enter your marks in percentage")
+// var marks=Math.round(percentage)
+// console.log("enter your  percentage ",marks)
+
+// CEIL
+// var average=5.7
+// var marks=Math.ceil(average)
+// console.log("ceil convert  the decimal into  number by adding a number",marks)
+
+// var percentage=prompt("Enter your percentage in a decimal")
+// var marks=Math.ceil(percentage)
+// console.log("numbers into decimal",marks)
+
+// FLOOR
+// var average=4.6
+// var marks=Math.floor(average)
+// console.log("enter your number into decimal",marks)
+
+// var percentage=prompt("Enter your percentage in a decimal")
+// var marks=Math.floor(percentage)
+// console.log("numbers into decimal",marks)
+
+// RANDOM
+var RandomAverage=Math.random
+console.log("random numbers" ,)
 
 
 

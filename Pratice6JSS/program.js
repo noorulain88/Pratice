@@ -76,3 +76,5 @@ do{
     console.log("the value is less the i" ,i)
     i++
 } while(i<=10)
+
+
