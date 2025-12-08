@@ -93,6 +93,8 @@
 // var Currentyear=Day.getFullYear();
 // console.log("current yeaar is",Currentyear);
 
+
+
 // var BDY="nov-8-2008"
 // var Day= new Date();
 // var userBirthDay=new Date(BDY)
@@ -106,6 +108,12 @@
 // console.log("differene is ",difference)
 // var age=difference/1000/60/60/24/365
 // console.log("user age is ",Math.floor(age))
+
+
+
+// Onmoveover and onmoveout
+
+
 
 
 
