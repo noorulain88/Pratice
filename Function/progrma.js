@@ -112,9 +112,49 @@
 
 
 // Onmoveover and onmoveout
+// function sayGreeting(message){
+// alert(message)
+// }
+// function list(items){
+//     alert(items)
+// }
+// function submit(items){
+//     console.log(items);
+
+// }
+// function math(Math){
+//     alert(Math);
+
+// }
+
+// function Bio(bio){
+//     alert(bio);
+
+// }
+// function comp(Comp){
+//     alert(Comp);
+
+// }
 
 
+// Retern
+// function sum(a,b){
+// var result=a+b;
 
+// return result
+// }
+// var ans=sum(3,4)
+// console.log("the answer is",ans)
+// alert(ans)
+
+
+// function Numbers(num1,num2){
+//     var sum=num1+num2
+//     return sum
+// }
+// var ans=Numbers(5,5)
+// console.log("your ans is ",ans)
+// // alert(ans)
 
 
 
