@@ -78,7 +78,51 @@
 // }
 
 
-function changeText(){
-var paragraph=document.getElementById("para")
-paragraph.innerHTML="the text value is changed"
+// function changeText(){
+// var paragraph=document.getElementById("para")
+// paragraph.innerHTML="the text value is changed"
+// }
+
+
+
+// div into h1
+
+var paraNode=document.createElement("h1")
+var textNode=document.createTextNode("This is heading 01 ")
+paraNode.appendChild(textNode)
+var div=document.getElementById("divPara")
+div.appendChild(paraNode)
+
+
+// div into h1 with id
+
+var parantNode=document.createElement("h2")
+parantNode.setAttribute("id","heading2")
+var textNode=document.createTextNode("this is heading 2")
+parantNode.appendChild(textNode)
+ var div=document.getElementById("divPara")
+ div.appendChild(parantNode)
+
+//  remove last child
+var removeNode=document.getElementById("divPara")
+var lastChild=removeNode.lastChild
+removeNode.removeChild(lastChild);
+
+// remove first child
+var removeNode=document.getElementById("divPara")
+firstchild=removeNode.firstChild
+removeNode.removeChild(firstchild)
+
+
+// 
+function sendMessage(){
+    var div=document.getElementById("message-container")
+    var messagePara=document.createElement("p");
+    messagePara.setAttribute("class","user-text")
+    var input=document.getElementById("message").value
+    var text=document.createTextNode(input)
+    messagePara.appendChild(text)
+    div.appendChild(messagePara)
+    document.getElementById("message").value=""
+
 }
