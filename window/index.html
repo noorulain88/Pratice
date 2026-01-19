@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>index</h1>
+    <button onclick="popup()">open new tab</button>
+    <br>
+        <button onclick="goTohome('/about')">go to about</button>
+        <br>
+             <button onclick="goTohome('/service')">go to service</button>
+             <br>
+        <button onclick=" goForward('/about')">go to forward</button>
+
+        <br>
+        <button onclick="relod()">To relod page</button>
+        <button onclick="window()"> page</button>
+        <!--  -->
+        <form onSubmit="return checkForLastName();" action="thank.html">
+      Please enter your last name.<br />
+      <input type="text" id="lastNameField" />
+      <button>Submit</button>
+    </form>
+
+    <!--  -->
+    <form action="thank.html" onsubmit="return checkUserEmail();">
+        enter your email:<br>
+        <input type="email" name="email" id="userEmail">
+        <br>
+        <button>submit Email</button>
+    </form>
+
+    <!--  -->
+    <select name="coutry" id="selectiveCountry"onSubmit="return checkCountrySelection();">
+        <option value="">Select your contry</option>
+         <option value="usa">USA</option>
+          <option value="uk">UK</option>
+           <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+    </select>
+      <button>submit </button>
+    <script src="program.js"></script>
+</body>
+</html>

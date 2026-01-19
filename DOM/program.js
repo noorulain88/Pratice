@@ -126,4 +126,3 @@ function sendMessage(){
     document.getElementById("message").value=""
 
 }
-// 
